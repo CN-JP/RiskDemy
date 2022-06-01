@@ -1,0 +1,318 @@
+head, body {
+  font-family: 'Playfair Display', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  line-height: 2;
+}
+
+p {
+  font-family: "Montserrat";
+  line-height: 1.5;
+}
+
+nav {
+  background-color: #FCD900;
+  padding: 2.5% 5%;
+}
+
+.navbar-brand {
+
+}
+
+.nav-item {
+
+}
+
+.container {
+  padding: 7% 5%;
+}
+
+.container-fluid {
+  padding: 5% 7%;
+}
+
+.title-1 {
+  font-size: 4rem;
+  color: #FCD900;
+}
+
+.auto-type {
+  color: #FCD900;
+}
+
+.title-img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  box-shadow: 5px 10px 18px #FCD900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.explore-button {
+  background-color: #FCD900;
+  border: none;
+  border-radius: 30px;
+  color: #000;
+  font-weight: 450;
+  padding: 15px 30px;
+  margin: 7% 0;
+  width: 150px;
+  transition: width 0.5s;
+}
+
+a .explore-button:link {
+  color: #000;
+}
+
+a .explore-button:hover {
+  color: #FCD900;
+}
+
+.explore-button:hover {
+  background: #000;
+  color: #FCD900;
+  width: 180px;
+  font-weight: bold;
+}
+
+.what-we-do {
+  background-color: #FCD900;
+  text-align: center;
+}
+
+.resources-img {
+  width: auto;
+  height: 50px;
+  display: inline-block;
+  justify-content: space-between;
+  margin: 25px 20px;
+  border-radius: 30px;
+}
+
+.section-title {
+  text-align: left;
+}
+
+.video-title-1 {
+  color: #FCD900;
+}
+
+.vid-container {
+  margin: 4% 0;
+  text-align: center;
+}
+
+iframe, .book-img, .testimonial-img {
+  margin-bottom: 20px;
+}
+
+.carousel-indicators {
+  margin-top: 50%;
+}
+
+.carousel-navbtn {
+  color: #FCD900;
+}
+
+.vid-btn {
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 0;
+}
+
+.viewmore-vid-btn {
+  text-align: center;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 20px;
+  background-color: #FCD900;
+  width: 120px;
+  transition: width 1s;
+}
+
+.viewmore-vid-btn:hover {
+  background: #000;
+  color: #FCD900;
+  width: 150px;
+}
+
+.viewmore-btn {
+  text-align: center;
+}
+
+.book-image {
+  height: 200px;
+  width: 140px;
+  transition: width 1.5s;
+}
+
+.book-image:hover {
+  height: 250px;
+  width: 180px;
+}
+
+.cardbox {
+  margin-bottom: 5%;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #FCD900;
+}
+
+.card-title, .card-text {
+  text-align: left;
+}
+
+.testimonial, .testimonial-text {
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.learn-transform {
+  line-height: 2;
+  background-color: #FCD900;
+  text-align: center;
+}
+
+.learn-image {
+  border-radius: 10% 10% 10% 0;
+  padding-right: 20px;
+  box-shadow: 5px 10px 18px #FFF;
+}
+
+.trans-text {
+  padding-top: 7%;
+  color:#000;
+}
+
+.trans-char {
+  color: #FFF;
+}
+
+.btm-explore-button {
+  background-color: #FFF;
+  border: none;
+  border-radius: 30px;
+  color: #000;
+  font-weight: 450;
+  padding: 15px 30px;
+  margin: 7% 0;
+  width: 200px;
+  transition: width 0.5s;
+}
+
+a .btm-explore-button:link {
+  color: #000;
+}
+
+a .btm-explore-button:hover {
+  color: #FCD900;
+}
+
+.btm-explore-button:hover {
+  background: #000;
+  color: #FCD900;
+  width: 220px;
+  font-weight: bold;
+}
+
+
+.ads-container {
+text-align: center;
+}
+
+.bottom-ads {
+  height: 150px;
+  width: 1000px;
+}
+
+footer {
+  background-color: #F5F5F5;
+  font-family: "Montserrat";
+}
+
+.footer-1 {
+  line-height: 2.5;
+  margin-bottom: 5%;
+}
+
+.footer-2 {
+  text-align: center;
+  line-height: 2;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.cnjp {
+  font-family: 'Dancing Script', cursive;
+}
+
+a:link, .cnjp a {
+  text-decoration: none;
+}
+
+.aff-text, .support-text {
+  font-size: 12px;
+  font-family: ;
+  text-align: center;
+  line-height: 1;
+}
+
+.support {
+  text-align: center;
+  margin: 0 5% 5%;
+}
+
+.support-img {
+  width: 100px;
+  height: 75px;
+  border-radius: 30px;
+  margin: 2.5% 7%;
+}
+
+
+/* About page */
+
+
+.advisors {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.advisor-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+
+
+/* Resources page */
+
+
+
+
+
+
+
+
+
+/* Media Query for responsiveness */
+
+
+@media {
+
+}
