@@ -57,7 +57,7 @@ nav {
   border: none;
   border-radius: 30px;
   color: #000;
-  font-weight: 450;
+  font-weight: 400;
   padding: 15px 30px;
   margin: 7% 0;
   width: 150px;
@@ -144,19 +144,28 @@ iframe, .book-img, .testimonial-img {
   text-align: center;
 }
 
-.book-image {
+.book-image00 {
   height: 200px;
   width: 140px;
   transition: width 1.5s;
 }
 
-.book-image:hover {
+.book-image00:hover {
   height: 250px;
   width: 180px;
 }
 
+.book-text {
+  font-size: 12px;
+}
+
 .cardbox {
   margin-bottom: 5%;
+}
+
+.card-img {
+  width: 255px;
+  height: 150px;
 }
 
 .card-title {
@@ -204,7 +213,7 @@ iframe, .book-img, .testimonial-img {
   border: none;
   border-radius: 30px;
   color: #000;
-  font-weight: 450;
+  font-weight: 400;
   padding: 15px 30px;
   margin: 7% 0;
   width: 200px;
@@ -228,12 +237,14 @@ a .btm-explore-button:hover {
 
 
 .ads-container {
-text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .bottom-ads {
   height: 150px;
-  width: 1000px;
+  width: 500px;
 }
 
 footer {
@@ -244,6 +255,11 @@ footer {
 .footer-1 {
   line-height: 2.5;
   margin-bottom: 5%;
+  font-size: 14px;
+}
+
+.footer-1 a {
+  color: #000;
 }
 
 .footer-2 {
@@ -253,6 +269,7 @@ footer {
 
 .social-icon {
   margin: 20px 10px;
+  color: #FCD900;
 }
 
 .cnjp {
@@ -265,7 +282,6 @@ a:link, .cnjp a {
 
 .aff-text, .support-text {
   font-size: 12px;
-  font-family: ;
   text-align: center;
   line-height: 1;
 }
@@ -301,6 +317,79 @@ a:link, .cnjp a {
 
 
 /* Resources page */
+.top-ad {
+  background-color: #EEEEEE;
+}
+
+.spec-subtitle {
+  font-size: 15px;
+}
+
+.filter-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2.5%;
+}
+
+.filter-box {
+  border-radius: 10px;
+  box-shadow: 5px 10px 8px #F1EEE9;
+  margin: 0.5% 2.5%;
+  height: 70px;
+  width: 210px;
+  word-wrap: break-word;
+  padding-top: 2.4%;
+  line-height: 0.9;
+  transition: 0.5s;
+}
+
+.filter-box:hover {
+  height: 80px;
+  width: 220px;
+  background-color: #FCD900;
+}
+
+.filter-box a {
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+}
+
+
+/* Books page */
+.book-image01 {
+  height: 200px;
+  width: 140px;
+}
+
+
+/* Course page */
+.uni-img {
+  width: auto;
+  height: 50px;
+  display: inline-block;
+  justify-content: space-between;
+  margin: 25px 20px;
+  border-radius: 30px;
+}
+
+.card-course-text {
+  font-size: 14px;
+}
+
+.courses-box {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+
+/* Contact page */
+
+
+
+
 
 
 
