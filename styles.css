@@ -52,6 +52,22 @@ nav {
   justify-content: center;
 }
 
+/* floating animation - start */
+.floating-img{
+  transform: translateY(-10%);
+  animation: floater 3s infinite alternate;
+  /* transition: ease 0.7s; */
+  /* width: 80px;
+  height:80px; */
+}
+
+@keyframes floater {
+  0%{transform: translateY(-10%);transition: ease 0.5s;}
+  50%{transform: translateY(10%);transition: ease 0.5s;}
+}
+
+/* floating animation - end */
+
 .explore-button {
   background-color: #FCD900;
   border: none;
@@ -364,8 +380,23 @@ a:link, .cnjp a {
   width: 140px;
 }
 
+.book-image01-portrait {
+  height: 200px;
+  width: 140px;
+}
+
+.book-image01-landscape {
+  height: 140px;
+  width: 200px;
+}
+
+
 
 /* Course page */
+.courses-institutions-array {
+  margin-bottom: 5%;
+}
+
 .uni-img {
   width: auto;
   height: 50px;
@@ -382,6 +413,11 @@ a:link, .cnjp a {
 .courses-box {
   margin-top: 1%;
   margin-bottom: 1%;
+}
+
+.courses-cont {
+  padding: 2% 7%;
+  margin
 }
 
 
